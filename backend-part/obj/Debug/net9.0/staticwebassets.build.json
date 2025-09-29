@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "xpG3opB6Ly4tyrhw+CdvS7ltOoFNskf4iN2FwmehHl4=",
+  "Source": "BeverageVendingMachine.API",
+  "BasePath": "_content/BeverageVendingMachine.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

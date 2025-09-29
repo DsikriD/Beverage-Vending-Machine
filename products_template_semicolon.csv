@@ -1,0 +1,13 @@
+Name;Brand;Price;Image URL;Stock Quantity;Description
+Coca-Cola;Coca-Cola;80;https://example.com/coca-cola.jpg;100;Classic cola
+Fanta;Coca-Cola;75;https://example.com/fanta.jpg;80;Orange soda
+Sprite;Coca-Cola;75;https://example.com/sprite.jpg;90;Lime soda
+Dr Pepper;Dr Pepper;85;https://example.com/dr-pepper.jpg;60;Cherry soda
+Pepsi;PepsiCo;80;https://example.com/pepsi.jpg;70;Pepsi cola
+7UP;PepsiCo;75;https://example.com/7up.jpg;65;Lemon soda
+Red Bull;Red Bull;120;https://example.com/redbull.jpg;40;Energy drink
+Monster Energy;Monster;110;https://example.com/monster.jpg;35;Energy drink
+Mirinda;PepsiCo;75;https://example.com/mirinda.jpg;50;Orange soda
+Schweppes;Schweppes;90;https://example.com/schweppes.jpg;30;Tonic water
+Mountain Dew;PepsiCo;85;https://example.com/mountain-dew.jpg;45;Citrus soda
+Orbit;Orbit;95;https://example.com/orbit.jpg;25;Chewing gum
