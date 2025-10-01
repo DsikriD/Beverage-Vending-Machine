@@ -41,7 +41,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAawB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T20:54:41.113Z"
+              "WhenOpened": "2025-09-28T20:54:41.113Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -66,7 +67,8 @@
               "RelativeToolTip": "Repositories\\Coin\\CoinRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T21:45:39.127Z"
+              "WhenOpened": "2025-09-28T21:45:39.127Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -78,7 +80,8 @@
               "RelativeToolTip": "Controllers\\ProductsController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T21:23:20.699Z"
+              "WhenOpened": "2025-09-28T21:23:20.699Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -88,7 +91,8 @@
               "ToolTip": "C:\\Users\\sikri\\AppData\\Roaming\\Microsoft\\UserSecrets\\2b62242b-a373-4bca-9d1a-171b529e5fd7\\secrets.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-28T21:12:23.456Z"
+              "WhenOpened": "2025-09-28T21:12:23.456Z",
+              "EditorCaption": ""
             }
           ]
         }
