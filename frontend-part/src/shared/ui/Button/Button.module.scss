@@ -1,0 +1,125 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-2);
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  position: relative;
+  outline: none;
+  
+  &:focus-visible {
+    box-shadow: 0 0 0 2px var(--primary-color);
+  }
+  
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+// Размеры
+.size-sm {
+  padding: var(--spacing-2) var(--spacing-3);
+  font-size: var(--font-size-sm);
+  min-height: 2rem;
+}
+
+.size-md {
+  padding: var(--spacing-3) var(--spacing-4);
+  font-size: var(--font-size-base);
+  min-height: 2.5rem;
+}
+
+.size-lg {
+  padding: var(--spacing-4) var(--spacing-6);
+  font-size: var(--font-size-lg);
+  min-height: 3rem;
+}
+
+// Варианты
+.variant-primary {
+  background-color: var(--primary-color);
+  color: white;
+  
+  &:hover:not(:disabled) {
+    background-color: var(--primary-hover);
+  }
+}
+
+.variant-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+  
+  &:hover:not(:disabled) {
+    background-color: var(--secondary-hover);
+  }
+}
+
+.variant-accent {
+  background-color: var(--accent-color);
+  color: white;
+  
+  &:hover:not(:disabled) {
+    background-color: var(--accent-hover);
+  }
+}
+
+.variant-outline {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  
+  &:hover:not(:disabled) {
+    background-color: var(--primary-color);
+    color: white;
+  }
+}
+
+.variant-ghost {
+  background-color: transparent;
+  color: var(--primary-color);
+  
+  &:hover:not(:disabled) {
+    background-color: rgba(37, 99, 235, 0.1);
+  }
+}
+
+// Состояния
+.fullWidth {
+  width: 100%;
+}
+
+.loading {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+// Спиннер
+.spinner {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid transparent;
+  border-top: 2px solid currentColor;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
